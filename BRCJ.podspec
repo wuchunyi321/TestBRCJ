@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BRCJ"
-  spec.version      = "1.1.17"
+  spec.version      = "1.1.18"
   spec.summary      = "A short description of BRCJ."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.homepage     = "https://@github.com/wuchunyi321/NextYVS"
+  spec.homepage     = "https://github.com/wuchunyi321/TestBRCJ"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/wuchunyi321/NextYVS.git", :tag => spec.version  }
+  spec.source       = { :git => "https://github.com/wuchunyi321/TestBRCJ.git", :tag => spec.version  }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
