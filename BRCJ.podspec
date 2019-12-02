@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BRCJ"
-  spec.version      = "1.1.22"
+  spec.version      = "1.1.23"
   spec.summary      = "A short description of BRCJ."
 
   # This description is used to generate tags and improve search results.
@@ -88,33 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BRCJ/Classes/BrHeader.h", "BRCJ/Classes/HeaderDefine.h", "BRCJ/Classes/PrefixHeader.pch"
-
-spec.subspec 'Login' do |ll|
-ll.source_files =  "BRCJ/Classes/Login/**/*.{h,m}"
-end
-spec.subspec 'Mine' do |mi|
-mi.source_files =  "BRCJ/Classes/Mine/**/*.{h,m}"
-end
-spec.subspec 'Stock' do |st|
-st.source_files =  "BRCJ/Classes/Stock/**/*.{h,m}"
-end
-spec.subspec 'School' do |sc|
-sc.source_files =  "BRCJ/Classes/School/**/*.{h,m}"
-end
-spec.subspec 'Report' do |re|
-re.source_files =  "BRCJ/Classes/Report/**/*.{h,m}"
-end
-spec.subspec 'Living' do |li|
-li.source_files =  "BRCJ/Classes/Living/**/*.{h,m}"
-end
-spec.subspec 'BaseViewController' do |ba|
-ba.source_files =  "BRCJ/Classes/BaseViewController/**/*.{h,m}"
-end
-spec.subspec 'Util' do |ut|
-ut.source_files =  "BRCJ/Classes/Util/**/*.{h,m}"
-end
-
+  spec.source_files  = "BRCJ/Classes/**/**/*.{h,m}"
 
   spec.exclude_files = "BRCJ/Classes/Login/VC/LoginViewController.{h,m}"  
 
