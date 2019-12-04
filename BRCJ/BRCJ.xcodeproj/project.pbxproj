@@ -1306,7 +1306,7 @@
 					"\"$(SRCROOT)/Classes/WechatSDK1.8.2\"",
 					"$(PROJECT_DIR)/Classes/WechatSDK1.8.2",
 				);
-				MARKETING_VERSION = 1.1.26;
+				MARKETING_VERSION = 1.1.27;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1402,7 +1402,7 @@
 					"\"$(SRCROOT)/Classes/WechatSDK1.8.2\"",
 					"$(PROJECT_DIR)/Classes/WechatSDK1.8.2",
 				);
-				MARKETING_VERSION = 1.1.26;
+				MARKETING_VERSION = 1.1.27;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

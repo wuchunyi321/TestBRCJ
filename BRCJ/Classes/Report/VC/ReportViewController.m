@@ -21,7 +21,7 @@
 #import "PayModel.h"
 
 //#import <AlipaySDK/AlipaySDK.h>
-#import "WXApiRequestHandler.h"
+//#import "WXApiRequestHandler.h"
 
 @interface ReportViewController ()<UITableViewDelegate,UITableViewDataSource,CardItemViewDelegate>{
     ReportHeadView  *headerView;
@@ -231,7 +231,7 @@
                         NSDictionary *data = responseObject[@"data"];
                         NSString *orderNumber = responseObject[@"order"][@"outTradeNo"];
                         [UserContext setOrderNumber:orderNumber];
-                        [WXApiRequestHandler jumpToBizPayWithStr:data];
+//                        [WXApiRequestHandler jumpToBizPayWithStr:data];
                     }
                                                    failure:^(NSString *errorMessage, id responseObject) {
                         NSLog(@"订单信息获取失败");

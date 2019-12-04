@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BRCJ"
-  spec.version      = "1.1.26"
+  spec.version      = "1.1.27"
   spec.summary      = "A short description of BRCJ."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
 
   spec.exclude_files = "BRCJ/Classes/Login/VC/LoginViewController.{h,m}"  
 
-  spec.vendored_libraries  = 'BRCJ/Classes/WechatSDK1.8.2/*.{a}'
+ # spec.vendored_libraries  = 'BRCJ/Classes/WechatSDK1.8.2/*.{a}'
 
  # spec.vendored_frameworks  = 'BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.framework'
  # spec.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => 'BRCJ/Classes/AlipaySDK-iOS/*.{h}' }
