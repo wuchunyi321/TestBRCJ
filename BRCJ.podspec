@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BRCJ"
-  spec.version      = "1.1.27"
+  spec.version      = "1.1.30"
   spec.summary      = "A short description of BRCJ."
 
   # This description is used to generate tags and improve search results.
@@ -92,11 +92,11 @@ Pod::Spec.new do |spec|
 
   spec.exclude_files = "BRCJ/Classes/Login/VC/LoginViewController.{h,m}"  
 
- # spec.vendored_libraries  = 'BRCJ/Classes/WechatSDK1.8.2/*.{a}'
+  spec.vendored_libraries  = 'BRCJ/Classes/WechatSDK1.8.2/libWeChatSDK.a'
 
- # spec.vendored_frameworks  = 'BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.framework'
- # spec.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => 'BRCJ/Classes/AlipaySDK-iOS/*.{h}' }
- # spec.resource = 'BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.bundle'
+  spec.vendored_frameworks  = 'BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.framework'
+  spec.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => 'BRCJ/Classes/AlipaySDK-iOS/*.{h}' }
+  spec.resource = 'BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.bundle'
 
  # 设置全局引用 直接在.pch文件中引用
    spec.prefix_header_contents = <<-EOS
@@ -130,10 +130,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+   spec.frameworks = "CoreTelephony", "SystemConfiguration", "UIKit", "Security", "CFNetwork", "SystemConfiguration"
 
   # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
+   spec.libraries = "z", "sqlite3.0", "c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
