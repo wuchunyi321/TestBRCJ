@@ -49,6 +49,13 @@
 		842DF957233895E500BF9757 /* SchoolHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DF956233895E500BF9757 /* SchoolHomeViewController.m */; };
 		842DF95A23389E2C00BF9757 /* SchoolAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DF95923389E2C00BF9757 /* SchoolAuthorCell.m */; };
 		842DF95D2338A9F200BF9757 /* SchoolInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DF95C2338A9F200BF9757 /* SchoolInfoViewController.m */; };
+		8433A68423977CC600E47BDD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433A68323977CC600E47BDD /* libWeChatSDK.a */; };
+		8433A68623977D4900E47BDD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433A68523977D4800E47BDD /* libc++.tbd */; };
+		8433A68B23977D8500E47BDD /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8433A68823977D8500E47BDD /* AlipaySDK.bundle */; };
+		8433A68C23977D8500E47BDD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8433A68923977D8500E47BDD /* LICENSE */; };
+		8433A68D23977D8500E47BDD /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433A68A23977D8500E47BDD /* AlipaySDK.framework */; };
+		8433A69323977DF200E47BDD /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A69023977DF200E47BDD /* WXApiRequestHandler.m */; };
+		8433A69423977DF200E47BDD /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A69223977DF200E47BDD /* WXApiManager.m */; };
 		84363A5222EFCF9800E1529B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84363A5122EFCF9800E1529B /* LoginViewController.m */; };
 		84363A5522F031C100E1529B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84363A5422F031C100E1529B /* MineViewController.m */; };
 		84363A5B22F0344A00E1529B /* MineHomeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84363A5A22F0344A00E1529B /* MineHomeTableCell.m */; };
@@ -201,6 +208,18 @@
 		842DF95923389E2C00BF9757 /* SchoolAuthorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolAuthorCell.m; sourceTree = "<group>"; };
 		842DF95B2338A9F200BF9757 /* SchoolInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolInfoViewController.h; sourceTree = "<group>"; };
 		842DF95C2338A9F200BF9757 /* SchoolInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolInfoViewController.m; sourceTree = "<group>"; };
+		8433A68023977CC600E47BDD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		8433A68123977CC600E47BDD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		8433A68223977CC600E47BDD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		8433A68323977CC600E47BDD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		8433A68523977D4800E47BDD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8433A68823977D8500E47BDD /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		8433A68923977D8500E47BDD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8433A68A23977D8500E47BDD /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		8433A68F23977DF200E47BDD /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		8433A69023977DF200E47BDD /* WXApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		8433A69123977DF200E47BDD /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
+		8433A69223977DF200E47BDD /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
 		84363A5022EFCF9800E1529B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		84363A5122EFCF9800E1529B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		84363A5322F031C100E1529B /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
@@ -347,8 +366,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8433A68623977D4900E47BDD /* libc++.tbd in Frameworks */,
+				8433A68D23977D8500E47BDD /* AlipaySDK.framework in Frameworks */,
 				842291852387C802000DFD94 /* libsqlite3.tbd in Frameworks */,
 				4CC8D59656F702D8E4ACACBA /* Pods_BRCJ.framework in Frameworks */,
+				8433A68423977CC600E47BDD /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +380,7 @@
 		76CFCD6807E91EC906289823 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8433A68523977D4800E47BDD /* libc++.tbd */,
 				842291842387C801000DFD94 /* libsqlite3.tbd */,
 				E46A6C2AFB24CDDAB34B14D9 /* Pods_BRCJ.framework */,
 			);
@@ -600,6 +623,41 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
+		8433A67F23977CC600E47BDD /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				8433A68023977CC600E47BDD /* WXApi.h */,
+				8433A68123977CC600E47BDD /* WXApiObject.h */,
+				8433A68223977CC600E47BDD /* WechatAuthSDK.h */,
+				8433A68323977CC600E47BDD /* libWeChatSDK.a */,
+			);
+			name = WechatSDK1.8.2;
+			path = Classes/WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		8433A68723977D8500E47BDD /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8433A68823977D8500E47BDD /* AlipaySDK.bundle */,
+				8433A68923977D8500E47BDD /* LICENSE */,
+				8433A68A23977D8500E47BDD /* AlipaySDK.framework */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "Classes/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		8433A68E23977DF200E47BDD /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				8433A68F23977DF200E47BDD /* WXApiManager.h */,
+				8433A69023977DF200E47BDD /* WXApiRequestHandler.m */,
+				8433A69123977DF200E47BDD /* WXApiRequestHandler.h */,
+				8433A69223977DF200E47BDD /* WXApiManager.m */,
+			);
+			name = Control;
+			path = Classes/Util/Control;
+			sourceTree = "<group>";
+		};
 		84363A5622F0340C00E1529B /* VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -825,6 +883,9 @@
 		84FC5A0922D8579700345CC9 = {
 			isa = PBXGroup;
 			children = (
+				8433A68E23977DF200E47BDD /* Control */,
+				8433A68723977D8500E47BDD /* AlipaySDK-iOS */,
+				8433A67F23977CC600E47BDD /* WechatSDK1.8.2 */,
 				84BCBB38235AA1C0006C90AF /* NetWork */,
 				84BCBB43235AA1C0006C90AF /* Tool */,
 				84BCBB18235A9E8E006C90AF /* JWPlayer */,
@@ -934,7 +995,9 @@
 			files = (
 				84FC5A1F22D8579900345CC9 /* Assets.xcassets in Resources */,
 				847F2A352332276D00363281 /* text.html in Resources */,
+				8433A68B23977D8500E47BDD /* AlipaySDK.bundle in Resources */,
 				84BCBB2C235A9E8F006C90AF /* JWPlayer.xib in Resources */,
+				8433A68C23977D8500E47BDD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,6 +1057,7 @@
 				841F3EDA22F163C500EA7DBA /* StockBlockView.m in Sources */,
 				848CB4E923069ECD00E57687 /* SchoolListItem.m in Sources */,
 				8423E56D22F964A000B5E098 /* MineCardListCell.m in Sources */,
+				8433A69423977DF200E47BDD /* WXApiManager.m in Sources */,
 				844AE07222F7D4170053142C /* BRWebViewController.m in Sources */,
 				841F3ED722F1583100EA7DBA /* SchoolCell.m in Sources */,
 				842DF957233895E500BF9757 /* SchoolHomeViewController.m in Sources */,
@@ -1033,6 +1097,7 @@
 				844AE06F22F7D2470053142C /* MineInviteViewController.m in Sources */,
 				84BCBB59235AA1C0006C90AF /* UIImage+GradientColor.m in Sources */,
 				8426FA94230E76920073F81C /* StockModel.m in Sources */,
+				8433A69323977DF200E47BDD /* WXApiRequestHandler.m in Sources */,
 				844AE07B22F7D7C60053142C /* MineSetViewController.m in Sources */,
 				84BCBB58235AA1C0006C90AF /* BRTool.m in Sources */,
 				841F3ED422F131F900EA7DBA /* SchoolDetailViewController.m in Sources */,
@@ -1224,6 +1289,10 @@
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = V3CTUA766C;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes/AlipaySDK-iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
 				INFOPLIST_FILE = BRCJ/Info.plist;
@@ -1234,10 +1303,67 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WeChatSDK1.8.6.1",
-					"$(PROJECT_DIR)/WechtSDK1.8.2",
+					"\"$(SRCROOT)/Classes/WechatSDK1.8.2\"",
+					"$(PROJECT_DIR)/Classes/WechatSDK1.8.2",
 				);
-				MARKETING_VERSION = 1.1.20;
+				MARKETING_VERSION = 1.1.25;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"jcore-ios-2.1.1\"",
+					"-l\"jpush-ios-3.2.1\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYText\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunvision.BRCJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1258,6 +1384,10 @@
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = V3CTUA766C;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes/AlipaySDK-iOS",
+				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
@@ -1269,10 +1399,67 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WeChatSDK1.8.6.1",
-					"$(PROJECT_DIR)/WechtSDK1.8.2",
+					"\"$(SRCROOT)/Classes/WechatSDK1.8.2\"",
+					"$(PROJECT_DIR)/Classes/WechatSDK1.8.2",
 				);
-				MARKETING_VERSION = 1.1.20;
+				MARKETING_VERSION = 1.1.25;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"jcore-ios-2.1.1\"",
+					"-l\"jpush-ios-3.2.1\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYText\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunvision.BRCJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

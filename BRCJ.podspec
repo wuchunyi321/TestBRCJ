@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BRCJ"
-  spec.version      = "1.1.23"
+  spec.version      = "1.1.25"
   spec.summary      = "A short description of BRCJ."
 
   # This description is used to generate tags and improve search results.
@@ -91,6 +91,21 @@ Pod::Spec.new do |spec|
   spec.source_files  = "BRCJ/Classes/**/**/*.{h,m}"
 
   spec.exclude_files = "BRCJ/Classes/Login/VC/LoginViewController.{h,m}"  
+
+  spec.vendored_libraries  = 'BRCJ/Classes/WechatSDK1.8.2/*.{a}'
+
+  spec.vendored_frameworks  = 'BRCJ/Classes/AlipaySDK-iOS/*.{a}'
+  spec.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => 'BRCJ/Classes/AlipaySDK-iOS/*.{h}' }
+  spec.resource_bundles = {
+
+    'BRCJ' => ['BRCJ/Classes/AlipaySDK-iOS/AlipaySDK.bundle']
+
+  }
+
+作者：康闹闹2013
+链接：https://www.jianshu.com/p/340006a1745d
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
  # 设置全局引用 直接在.pch文件中引用
    spec.prefix_header_contents = <<-EOS

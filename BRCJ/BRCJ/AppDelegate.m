@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import "AppDelegate+RootVC.h"
 
-//#import "WXApiManager.h"
+#import "WXApiManager.h"
 
 // 引入 JPush 功能所需头文件
 #import "JPUSHService.h"
@@ -25,7 +25,7 @@
 
 #import "UserInfoModel.h"
 
-//#import <AlipaySDK/AlipaySDK.h>
+#import <AlipaySDK/AlipaySDK.h>
 
 #import "PayResultViewController.h"
 
@@ -109,12 +109,12 @@
     }
     [self.window makeKeyAndVisible];
     
-//    [WXApi startLogByLevel:WXLogLevelNormal logBlock:^(NSString *log) {
-//        NSLog(@"log : %@", log);
-//    }];
-//    
-//    //向微信注册,发起支付必须注册
-//    [WXApi registerApp:@"wx80163dd2d39f73b3" enableMTA:YES];
+    [WXApi startLogByLevel:WXLogLevelNormal logBlock:^(NSString *log) {
+        NSLog(@"log : %@", log);
+    }];
+    
+    //向微信注册,发起支付必须注册
+    [WXApi registerApp:@"wx80163dd2d39f73b3" enableMTA:YES];
     
     return YES;
 }
