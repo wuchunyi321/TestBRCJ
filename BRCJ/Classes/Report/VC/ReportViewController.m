@@ -20,7 +20,7 @@
 #import "CQBlockAlertView.h"
 #import "PayModel.h"
 
-#import <AlipaySDK/AlipaySDK.h>
+//#import <AlipaySDK/AlipaySDK.h>
 #import "WXApiRequestHandler.h"
 
 @interface ReportViewController ()<UITableViewDelegate,UITableViewDataSource,CardItemViewDelegate>{
@@ -209,12 +209,12 @@
     return cell;
 }
 
-- (void)doAPPayWithPrice:(NSString *)price{
-    NSString *appScheme = @"BRCJ";
-    [[AlipaySDK defaultService] payOrder:price fromScheme:appScheme callback:^(NSDictionary *resultDic) {
-        NSLog(@"reslut = %@",resultDic);
-    }];
-}
+//- (void)doAPPayWithPrice:(NSString *)price{
+//    NSString *appScheme = @"BRCJ";
+//    [[AlipaySDK defaultService] payOrder:price fromScheme:appScheme callback:^(NSDictionary *resultDic) {
+//        NSLog(@"reslut = %@",resultDic);
+//    }];
+//}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     ReportListModel *item = [self.dataArray objectAtIndex:indexPath.row];
@@ -246,7 +246,7 @@
                         NSString *data = responseObject[@"data"];
                         NSString *orderNumber = responseObject[@"order"][@"outTradeNo"];
                         [UserContext setOrderNumber:orderNumber];
-                       [self doAPPayWithPrice:data];
+//                       [self doAPPayWithPrice:data];
                     }
                                                    failure:^(NSString *errorMessage, id responseObject) {
                         NSLog(@"订单信息获取失败");

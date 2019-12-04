@@ -25,7 +25,7 @@
 
 #import "UserInfoModel.h"
 
-#import <AlipaySDK/AlipaySDK.h>
+//#import <AlipaySDK/AlipaySDK.h>
 
 #import "PayResultViewController.h"
 
